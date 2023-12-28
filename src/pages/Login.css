@@ -1,0 +1,67 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .register-link {
+    text-align: center;
+  }
+  
+  .register-link p {
+    margin-top: 15px;
+  }
+  
+  .register-link a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add your styling for the dark mode here, if needed */
+  
